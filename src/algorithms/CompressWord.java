@@ -12,7 +12,7 @@ public class CompressWord {
         HashMap<String, String> testCases = new HashMap<>();
         testCases.put("aaabbc", "3a2b1c");
         testCases.put("abc", "1a1b1c");
-        testCases.put("aaabbbaaaccdefghhh", "3a3b3a2c1d1e1f3h");
+        testCases.put("aaabbbaaaccdefghhh", "3a3b3a2c1d1e1f1g3h");
         testCases.put("a", "1a");
         testCases.put("ab", "1a1b");
         testCases.put("", "");
